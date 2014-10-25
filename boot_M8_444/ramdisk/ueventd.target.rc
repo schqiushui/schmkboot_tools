@@ -1,0 +1,5 @@
+# for autobot car pc
+/dev/ttyHSUSB3                                 0660    autobot_access autobot_access
+
+# MirrorLink
+/sys/devices/virtual/android_usb/android0/f_projector2    client_context_info    0644  system system

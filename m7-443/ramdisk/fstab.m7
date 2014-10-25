@@ -1,0 +1,5 @@
+# Android fstab file.
+# Edited for Android Revolution HD
+# <src>                                            <mnt_point>    <type>    <mnt_flags>                                             <fs_mgr_flags>
+userdata                                           /data          ext4      noatime,nosuid,nodev,noauto_da_alloc,discard            encryptable=extra
+/devices/platform/msm_hsusb_host                   auto           vfat      defaults                                                voldmanaged=usb:auto
